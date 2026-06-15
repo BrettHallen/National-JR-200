@@ -10,3 +10,5 @@ The output from the oscillator circuit (IC16, a 7404, pin 6) goes to Tclk (pin 5
 ![JR-200 oscillator circuit PCB](/Images/National_JR-200_CRTC_Oscillator.jpeg)
 
 The CRTC generates Φ1 (pin 30), Φ2 (pin 32) and Φ2S (pin 34) but the Φ2 signal is missing.<br>
+
+The logic analyser file (SAL) can be opened using [Saleae's Logic 2](https://www.saleae.com/downloads) software (the hardware isn't needed to open files).<br>
