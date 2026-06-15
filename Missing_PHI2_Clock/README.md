@@ -12,3 +12,8 @@ The output from the oscillator circuit (IC16, a 7404, pin 6) goes to Tclk (pin 5
 The CRTC generates Φ1 (pin 30), Φ2 (pin 32) and Φ2S (pin 34) but the Φ2 signal is missing.<br>
 
 The logic analyser file (SAL) can be opened using [Saleae's Logic 2](https://www.saleae.com/downloads) software (the hardware isn't needed to open files).<br>
+
+[Dave](http://blog.tynemouthsoftware.co.uk) suggested I look at the 7404 (IC16) used in the oscillator stage.  I swapped the original 7404 with a 74LS04 and I finally got something on the Φ2 output of the CRTC ... it's still not good enough, I think, as it looks to be less than 1Vp-p ... but progress!  I also replaced the two large ceramic disc capacitors (C16 = 220pF and C18 = 330pF).<br>
+
+![Finally PHI2 output](/Missing_PHI2_Clock/JR-200_IC16_74LS04_PHI2.jpeg)
+
