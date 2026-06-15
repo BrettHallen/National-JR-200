@@ -68,24 +68,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -30.48 22.86 0)
-				(length 2.54)
-				(name "~{TEST}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at -30.48 20.32 0)
 				(length 2.54)
@@ -115,24 +97,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -30.48 12.7 0)
-				(length 2.54)
-				(name "~{CLR}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -313,24 +277,6 @@
 					)
 				)
 				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -30.48 -20.32 0)
-				(length 2.54)
-				(name "~{VMA}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -860,24 +806,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 15.24 33.02 270)
-				(length 2.54)
-				(name "~{BANK4/5}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "66"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 15.24 -38.1 90)
 				(length 2.54)
@@ -1005,42 +933,6 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -7.62 180)
-				(length 2.54)
-				(name "~{CAS1}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 30.48 -10.16 180)
-				(length 2.54)
-				(name "~{CAS0}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 30.48 -12.7 180)
 				(length 2.54)
 				(name "TCAS"
@@ -1051,42 +943,6 @@
 					)
 				)
 				(number "49"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 30.48 -15.24 180)
-				(length 2.54)
-				(name "~{RAS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 30.48 -17.78 180)
-				(length 2.54)
-				(name "~{DRAMSEL}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1186,6 +1042,24 @@
 			)
 		)
 		(symbol "HD61K201F_1_0"
+			(pin passive inverted
+				(at -30.48 22.86 0)
+				(length 2.54)
+				(name "~{TEST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -30.48 15.24 0)
 				(length 2.54)
@@ -1197,6 +1071,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -30.48 12.7 0)
+				(length 2.54)
+				(name "~{CLR}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1233,6 +1125,24 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -30.48 -20.32 0)
+				(length 2.54)
+				(name "~{VMA}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1312,6 +1222,24 @@
 					)
 				)
 			)
+			(pin no_connect inverted
+				(at 15.24 33.02 270)
+				(length 2.54)
+				(name "~{BANK4/5}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin tri_state line
 				(at 17.78 33.02 270)
 				(length 2.54)
@@ -1330,7 +1258,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin passive inverted
 				(at 30.48 22.86 180)
 				(length 2.54)
 				(name "~{CS_ROM}"
@@ -1348,7 +1276,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin passive inverted
 				(at 30.48 17.78 180)
 				(length 2.54)
 				(name "~{CS_ROM1}"
@@ -1366,7 +1294,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin passive inverted
 				(at 30.48 15.24 180)
 				(length 2.54)
 				(name "~{CS_ROM0}"
@@ -1384,7 +1312,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin passive inverted
 				(at 30.48 12.7 180)
 				(length 2.54)
 				(name "~{CS_CRAM}"
@@ -1420,7 +1348,7 @@
 					)
 				)
 			)
-			(pin passive input_low
+			(pin passive inverted
 				(at 30.48 7.62 180)
 				(length 2.54)
 				(name "~{CS_VRAM}"
@@ -1467,6 +1395,78 @@
 					)
 				)
 				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 30.48 -7.62 180)
+				(length 2.54)
+				(name "~{CAS1}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 30.48 -10.16 180)
+				(length 2.54)
+				(name "~{CAS0}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 30.48 -15.24 180)
+				(length 2.54)
+				(name "~{RAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 30.48 -17.78 180)
+				(length 2.54)
+				(name "~{DRAMSEL}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
 					(effects
 						(font
 							(size 1.27 1.27)
