@@ -4,3 +4,6 @@ JR-200_DIN-to-VGA/fp-info-cache
 *.kicad_prl
 *.bak
 /Markku_Panana/Markku_Panana-backups
+KiCad/\#auto_saved_files\#
+KiCad/_autosave-KiCad.kicad_sch
+*.lck
