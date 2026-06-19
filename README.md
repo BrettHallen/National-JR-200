@@ -1,7 +1,7 @@
 # National JR-200
 Information about the National/Panasonic JR-200 computer.<br>
 
-This machine uses a HN1800A which seems to be a mix of the MC6800 and MC6802: it requires an external clock (like the MC6800) but with has internal RAM (like the 6802).  In the JR-200 though the internal RAM disabled.<br>
+This machine uses a HN1800A which seems to be a mix of the MC6800 and MC6802: it requires an external clock (like the MC6800) but has internal RAM (like the 6802).  In the JR-200 though the internal RAM disabled.<br>
 
 It was exported to the US as the JR-200U and Europe as the JR-200UP (PAL).<br>
 
