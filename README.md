@@ -16,8 +16,13 @@ Its main parts are:
 - [Part 2: Missing Φ2 Clock?](https://youtu.be/HDSBuGudi-w)
 - [Part 3: A Second JR-200 Appears](https://youtu.be/Jg6vPXeS__c)
 
-## Troubleshooting Φ2 Clock
-My first JR-200 doesn't work - the Φ2 is currently missing.
+## [DIN to VGA Adaptor](/JR-200_DIN-to-VGA)
+A simple board to convert the JR-200's 8-pin DIN socket for video output to a VGA socket (RGB) and RCA jack (composite).<br>
+
+## [Troubleshooting Φ2 Clock](/Missing_PHI2_Clock)
+My first JR-200 doesn't work - the HD61K201F isn't correctly generating the Φ2 clock signal, thus the machine won't boot.<br>
+
+![Boot screen](/Missing_PHI2_Clock/JR-200_Boot_screen_missing_PHI2.jpg)
 
 ## Useful Links
 - [yanataka60さん's SD interface (JP)](https://github.com/yanataka60/JR-200_SD)
