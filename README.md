@@ -28,3 +28,4 @@ My first JR-200 doesn't work - the HD61K201F isn't correctly generating the Φ2 
 - [yanataka60さん's SD interface (JP)](https://github.com/yanataka60/JR-200_SD)
 - [JR-200 General Info (JP)](https://jr200.web.fc2.com/index.html)
 - [Technical scans & ROMs (EN)](https://gitlab.com/retroabandon/panasonic-jr)
+- [Markku Reunan's page (EN/FI)](http://www.kameli.net/marq/?page_id=1270)
